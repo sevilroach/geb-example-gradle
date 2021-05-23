@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.gebish:geb-junit4
+    versions:
+    - "4.0"
+  - dependency-name: org.gebish:geb-spock
+    versions:
+    - "4.0"
+  - dependency-name: org.codehaus.groovy:groovy-all
+    versions:
+    - 3.0.7
