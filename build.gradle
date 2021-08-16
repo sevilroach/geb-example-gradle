@@ -6,7 +6,7 @@ ext {
 
     ext {
         groovyVersion = '3.0.8'
-        gebVersion = '4.1'
+        gebVersion = '5.0'
         seleniumVersion = '3.141.59'
         chromeDriverVersion = '3.141.59'
         phantomJsVersion = '1.9.7'
